@@ -1,4 +1,4 @@
 <?php
 require 'connexion.php';
 
-include 'index.tpl.php';
+include 'bug_form.tpl.php';
