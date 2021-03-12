@@ -7,11 +7,11 @@
 	<title>Bug tracker</title>
 </head>
 <body>
-<form method="post" action="action.php">
-	<p>Titre : <input class="form-control" type="text" name="titre"></p>
+<form method="post" action="bug_form.php">
+	<p>Titre : <input class="form-control" type="text" name="title"></p>
 	<p>Date : <input class="form-control" type="text" name="date"></p>
 	<p>
-		Titre : <select name="type" id="">
+		Titre : <select name="type">
 			<option value="404">Erreur 404</option>
 			<option value="affichage">Bug d'affichage</option>
 			<option value="securite">Bug de sécurité</option>
