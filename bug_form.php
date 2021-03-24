@@ -19,6 +19,9 @@ if (!empty ($_POST)) {
 
     $req->execute();
 
+    header('Location: bugs_list.tpl.php');
+    exit;
+
 }
 
 include 'bug_form.tpl.php';

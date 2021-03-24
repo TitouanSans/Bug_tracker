@@ -6,6 +6,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bug tracker</title>
 </head>
+
+<header>
+    <?php require 'menu.php';?>
+</header>
+
 <body>
 <form method="post" action="bug_form.php">
 	<p>Titre : <input class="form-control" type="text" name="title"></p>
